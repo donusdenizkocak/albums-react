@@ -1,6 +1,7 @@
 import React from "react";
-import Picture from "../components/Picture";
+// import Picture from "../components/Picture";
 import "../components/picture.css"
+import { SwipperSliderAlbums } from "../components/SwipperSliderAlbums";
 
 
 
@@ -20,7 +21,8 @@ const Homepage = () => {
 
 {/* {data.map((props,id)=> <Picture {...props} key={id}/>)} */}
 
-<Picture/>
+{/* <Picture/> */}
+<SwipperSliderAlbums/>
       
     </div>
   );
