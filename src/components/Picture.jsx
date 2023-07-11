@@ -1,6 +1,6 @@
 import React from "react";
 import data from "../helper/data";
-import "./Picture.css";
+import "./picture.css";
 
 const Picture = () => {
   return (

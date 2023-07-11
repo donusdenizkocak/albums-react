@@ -1,6 +1,6 @@
 import React from "react";
 import Picture from "../components/Picture";
-import "../components/Picture.css"
+import "../components/picture.css"
 
 
 
