@@ -1,6 +1,6 @@
 import React from 'react'
 import data from "../helper/data";
-import  { useRef, useState } from 'react';
+// import  { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -16,10 +16,11 @@ import { EffectCoverflow, Pagination } from 'swiper/modules';
 
 export const SwipperSliderAlbums = () => {
   return (
-    <>
+    <div className='app'>
  {data.map((item, index) => {
         return (
             <Swiper
+            key={index}
             effect={'coverflow'}
             grabCursor={true}
             centeredSlides={true}
@@ -44,6 +45,6 @@ export const SwipperSliderAlbums = () => {
 
 
    
-  </>
+  </div>
   )
 }
